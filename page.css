@@ -1,0 +1,126 @@
+main{
+    background-image: linear-gradient(to right,#191A17,#1F482A,#191A17);
+    margin: 0px;
+    height: 803px;
+    padding-top: 150px;
+}
+.photo{
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.left{
+    height: 500px;
+    width:100px;
+    background: #F5F5F5;
+    background-repeat: no-repeat;
+}
+#mid{
+    height: 500px;
+    width:1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+.right{
+    height: 500px;
+    width:100px;
+    background: #F5F5F5;
+    background-repeat: no-repeat;
+}
+.bl{
+    margin-top: 225px;
+    margin-left: 25px;
+    margin-bottom: 225px;
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+}
+.br{
+    margin-top: 225px;
+    margin-left: 25px;
+    margin-bottom: 225px;
+    margin-right: 25px;
+    width: 50px;
+    height: 50px;
+    transform: rotate(0.5turn);
+}
+.thumbnail{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1120px;
+    align-items: center;
+    margin-top: 20px;
+}
+.down{
+    width: 120px;
+    height: 50px;
+    margin: 10px;
+    border: 5px #F5F5F5 solid;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    
+}
+.one{
+    background: url(https://www.ecopetit.cat/wpic/mpic/90-904732_league-of-legends-thresh-splash-art.png);
+    background-size: cover;
+}
+.two{
+    background: url(http://lolwp.com/wp-content/uploads/Deep-Terror-Thresh-1.jpg);
+    background-size: cover;
+}
+.three{
+    background: url(http://lolwp.com/wp-content/uploads/2013/01/Blood-Moon-Thresh.jpg);
+    background-size: cover;
+}
+.four{
+    background: url(http://lolwp.com/wp-content/uploads/2012/08/Samsung-White-Skins.jpg);
+    background-size: cover;
+}
+.five{
+    background: url(https://cdnb.artstation.com/p/assets/images/images/002/956/463/large/victor-maury-darkstarthreshforweb.jpg?1484080799);
+    background-size: cover;
+}
+.six{
+    background: url(http://lolwp.com/wp-content/uploads/2013/09/Championship-Thresh.jpg);
+    background-size: cover;
+}
+.seven{
+    background: url(https://lol-stats.net/uploads/ob55P7R9v9pcLBVtulotdCtxhZSBz4gJlCbCNkJI.jpeg);
+    background-size: cover;
+}
+.eight{
+    background: url(https://l2pbomb.com/wp-content/uploads/2019/11/pulsefire-thresh-skin-splash-art-lol-1024x604.jpeg);
+    background-size: cover;
+}
+h1{
+    font-family: 'Teko', sans-serif;
+    text-transform: uppercase;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    color: white;
+    
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 15px;
+    color: white;
+    
+}
+.words{
+    background: rgba(0, 0, 0, 0.7);
+    margin-top: 300px;
+    width: 100%;
+}
+.down:hover{
+    margin: 0px;
+    width: 140px;
+    height: 70px;
+    
+}
