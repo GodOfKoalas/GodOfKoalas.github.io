@@ -1,0 +1,132 @@
+.all{
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header{
+  background: url(http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png);
+  height: 410px;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.nadpis1{
+  margin-left: 290px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.nadpis2{
+  margin-left: 290px;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 75px;
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+p{
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 290px;
+  width: 700px;
+}
+.one{
+  width: 700px;
+  font-size: 18px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+ul{
+  list-style-type: square;
+  margin-left: 290px;
+  width: 650px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+blockquote{
+  width:800px;
+  margin-left: 240px;
+  background-color: #444444;
+  color: white;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 48px;  
+}
+.q1{
+  height: 165px;
+  display: flex; 
+  
+}
+.q11{
+  margin-top: 53px;
+  margin-left: 50px;
+  margin-right:50px;
+  margin-bottom:53px;
+}
+.q12{
+  position: absolute;
+  font-size: 150px;
+  margin-top: -40px
+}
+h2{
+  text-transform: uppercase;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 290px;
+  width: 700px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 290px;
+  width: 700px;
+  margin-bottom: 0px;
+}
+h4{
+  font-family: 'Merriweather', serif;
+  margin-left: 290px;
+  width: 700px;
+  margin-top: 0px;
+}
+.q2{
+  height: 240px;
+  display: flex;
+}
+.q21{
+  margin-top: 53px;
+  margin-left: 50px;
+  margin-right:50px;
+  margin-bottom:53px; 
+}
+.q22{
+  position: absolute;
+  font-size: 150px;
+  margin-top: -40px
+}
+.q3{
+  height: 240px;
+  display: flex;
+}
+.q31{
+  margin-top: 53px;
+  margin-left: 50px;
+  margin-right:50px;
+  margin-bottom:53px;
+}
+.q32{
+  position: absolute;
+  font-size: 150px;
+  margin-top: -40px
+}
+.line{
+  height: 4px;
+  width: 730px;
+  background-color: #444444;
+  margin-left: 275px;
+  margin-top: 50px;
+}
+.p1{
+  margin-top: 60px;
+}
+.h01{
+  margin-top: 45px
+}
+.u1{
+  margin-bottom: 55px;
+}
