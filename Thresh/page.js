@@ -3,8 +3,11 @@ $(`#mid`).css({"background-image": "url(https://www.ecopetit.cat/wpic/mpic/90-90
 $(`.a1`).css({"display": "block"});
 
 $(`.left`).click(() => {
-    if (img > 0) {
+    if (img > -1) {
         img = img - 1;
+    };
+    if (img === -1) {
+        img = 7
     };
     if (img === 0) {
         $(`#mid`).css({"background-image": "url(https://www.ecopetit.cat/wpic/mpic/90-904732_league-of-legends-thresh-splash-art.png)"});
@@ -73,8 +76,11 @@ $(`.left`).click(() => {
     
 });
 $(`.right`).click(() => {
-    if (img < 7) {
+    if (img < 8) {
         img = img + 1;
+    };
+    if (img === 8) {
+        img = 0
     };
     if (img === 0) {
         $(`#mid`).css({"background-image": "url(https://www.ecopetit.cat/wpic/mpic/90-904732_league-of-legends-thresh-splash-art.png)"});
@@ -679,4 +685,3 @@ $(`.eight`).click(() => {
         $(`.a8`).css({"display": "block"});
     }
 });
-
